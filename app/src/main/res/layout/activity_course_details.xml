@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.CourseDetailsActivity">
+
+    <TextView
+        android:id="@+id/tvCourseCodeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COXXXX"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/tvCourseNameDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:padding="2dp"/>
+
+    <TextView
+        android:id="@+id/tvLecturerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lecturer Name"
+        android:padding="2dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerStudentsInCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddStudentToCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/add_student_to_course"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@android:drawable/ic_input_add"/>
+</LinearLayout>
