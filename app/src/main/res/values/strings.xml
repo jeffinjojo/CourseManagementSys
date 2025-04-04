@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">CourseManagementSys</string>
+    <string name="app_name">CourseManagementApp</string>
+
+    <string name="add_course">Add Course</string>
+    <string name="btn_create_course">Create</string>
+    <string name="hint_course_code">Course Code</string>
+    <string name="hint_course_name">Course Name</string>
+    <string name="hint_lecturer_name">Lecturer Name</string>
+
+    <string name="add_student_to_course">Add Student to Course</string>
+    <string name="hint_student_name">Student Full Name</string>
+    <string name="hint_student_email">Student Email</string>
+    <string name="hint_student_username">Username</string>
+    <string name="btn_add_student">Add</string>
+    <string name="btn_save_changes">Save</string>
 </resources>
